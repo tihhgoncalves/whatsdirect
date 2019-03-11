@@ -19,11 +19,11 @@ include($config->get('site_path') . 'assets/html.header.php');
 
         <div class="row">
 
-            <div class="col-md-offset-4 col-md-1">
+            <div class="col-md-offset-4 col-md-1 col-sm-3 col-xs-3">
               <input name="pais" type="text" class="form-control" required="" placeholder="+País" value="+55">
             </div>
 
-            <div class="col-md-2">
+            <div class="col-lg-2 col-md-4 col-sm-9 col-xs-9">
               <input name="numero" type="text" class="form-control" required="" placeholder="(47) 9 9999-9999">
             </div>
 

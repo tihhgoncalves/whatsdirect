@@ -1,5 +1,5 @@
 <?
-$config->set('site_localhost_url',   'http://localhost.gits/directwhats/');
+$config->set('site_localhost_url',   'http://localhost.gits/whatsdirect/');
 $config->set('site_production_url',  'http://app.taticadesucesso.com.br/whatsdirect/');
 $config->set('site_beta_url',        '###');
 
