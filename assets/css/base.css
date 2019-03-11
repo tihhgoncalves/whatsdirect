@@ -2014,6 +2014,10 @@ body {
   font-size: 16px;
   line-height: 1.42857143;
 }
+#logo {
+  max-width: 90%;
+  height: auto;
+}
 /* Backgrounds */
 .bg-cinza {
   background-color: #E1E1E1;
