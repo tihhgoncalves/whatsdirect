@@ -1,0 +1,23 @@
+{
+  "name": "tihh.site.config.php",
+  "homepage": "https://github.com/tihhgoncalves/tihh.site.config.php",
+  "authors": [
+    "Tihh Gonçalves <tihh.gon@gmail.com>"
+  ],
+  "description": "Objeto de PHP que controla os parâmetros de configuração do site.",
+  "main": "load.php",
+  "keywords": [
+    "php",
+    "object",
+    "config"
+  ],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

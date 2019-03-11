@@ -1,0 +1,31 @@
+{
+  "name": "tihh.php.obj.db.mysql.sql.post",
+  "homepage": "https://github.com/tihhgoncalves/tihh.php.obj.db.mysql.sql.post",
+  "authors": [
+    "Tihh Gonçalves <tiago@tiago.art.br>"
+  ],
+  "description": "Objeto de PHP que gera SQL (post) automaticamente.",
+  "main": "load.php",
+  "keywords": [
+    "mysql",
+    "sql",
+    "database",
+    "base",
+    "php"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "bower_components",
+    ".idea"
+  ],
+  "version": "1.0.0",
+  "_release": "1.0.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.0.0",
+    "commit": "8d332a9379827fe1aeb69c87e1f36a2fafe8d74c"
+  },
+  "_source": "https://github.com/tihhgoncalves/tihh.php.obj.db.mysql.sql.post.git",
+  "_target": "*",
+  "_originalSource": "tihh.php.obj.db.mysql.sql.post"
+}

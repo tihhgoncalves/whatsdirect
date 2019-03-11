@@ -1,0 +1,44 @@
+.fnc_arredonda(@raio: 3px){
+  -webkit-border-radius: @raio;
+  -moz-border-radius: @raio;
+  border-radius: @raio;
+}
+
+.fnc_transparencia(@perc: 60){
+  opacity:(@perc/100);
+  -moz-opacity: (@perc/100);
+  filter: alpha(opacity=@perc);
+}
+
+.fnc_placeholder(@cor){
+  &::-webkit-input-placeholder,
+  &::-moz-placeholder,
+  &:-ms-input-placeholder,
+  &:-moz-placeholder {
+    color: @cor;
+  }
+}
+
+
+/** Animates **/
+.keyframes(@name; @arguments) {
+  @-moz-keyframes @name { @arguments(); }
+  @-webkit-keyframes @name { @arguments(); }
+  @keyframes @name { @arguments(); }
+}
+
+.animation(@arguments) {
+  -webkit-animation: @arguments;
+  -moz-animation: @arguments;
+  animation: @arguments;
+}
+
+/* Não permite que texto do objeto possa ser selecionado */
+.no-select{
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

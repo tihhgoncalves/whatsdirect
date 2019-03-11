@@ -1,0 +1,32 @@
+{
+  "name": "tihh.site.config.php",
+  "homepage": "https://github.com/tihhgoncalves/tihh.site.config.php",
+  "authors": [
+    "Tihh Gonçalves <tihh.gon@gmail.com>"
+  ],
+  "description": "Objeto de PHP que controla os parâmetros de configuração do site.",
+  "main": "load.php",
+  "keywords": [
+    "php",
+    "object",
+    "config"
+  ],
+  "license": "MIT",
+  "private": false,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "5c444938bf",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "5c444938bf29c53ac4e2fcc7ab844de89fac4e5c"
+  },
+  "_source": "https://github.com/tihhgoncalves/tihh.site.config.php.git",
+  "_target": "*",
+  "_originalSource": "tihh.site.config.php"
+}

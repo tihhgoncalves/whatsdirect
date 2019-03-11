@@ -1,0 +1,18 @@
+{
+  "name": "rhinoJS",
+  "homepage": "https://github.com/tihhgoncalves/rhinoJS",
+  "authors": [
+    "Tihh Gonçalves <tiago@tiago.art.br>"
+  ],
+  "description": "Framework de Javascript desenvolvido pela Z.BRA Estúdio e parceiros",
+  "main": "dist/rhinoJS.js",
+  "keywords": [
+    "framework",
+    "javascript",
+    "opensource"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^2.2.3"
+  }
+}
