@@ -20,11 +20,11 @@
     "test",
     "tests"
   ],
-  "_release": "1ce59464fc",
+  "_release": "793be76d98",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "1ce59464fc662708a4b8ef679292ee04196945e8"
+    "commit": "793be76d98e6eb259b99aa82fcad299c6a895548"
   },
   "_source": "https://github.com/tihhgoncalves/tihh.site.router.php.git",
   "_target": "*",

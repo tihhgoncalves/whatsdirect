@@ -1,29 +1,20 @@
-/*
-	Directive by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+$(document).ready(function(){
 
-(function($) {
+  $('input[name=numero]').focus();
 
-	var	$window = $(window),
-		$body = $('body');
+  $('input[name=numero]').mask('(00) 0 0000-0000');
 
-	// Breakpoints.
-		breakpoints({
-			wide:      [ '1281px',  '1680px' ],
-			normal:    [ '981px',   '1280px' ],
-			narrow:    [ '841px',   '980px'  ],
-			narrower:  [ '737px',   '840px'  ],
-			mobile:    [ '481px',   '736px'  ],
-			mobilep:   [ null,      '480px'  ]
-		});
+  $("form").submit(function() {
 
-	// Play initial animations on page load.
-		$window.on('load', function() {
-			window.setTimeout(function() {
-				$body.removeClass('is-preload');
-			}, 100);
-		});
+    var input_pais = $('input[name=pais]').val().replaceAll('+', '');
+    var input_numero = $('input[name=numero]').val().replaceAll('(', '').replaceAll(')', '').replaceAll('-', '').replaceAll(' ', '');
 
-})(jQuery);
+    alert('http://wa.me/' + (input_pais + input_numero));
+    window.location.href = 'http://wa.me/' + (input_pais + input_numero);
+
+    $(this).serialize();
+    return false;
+
+  });
+
+});

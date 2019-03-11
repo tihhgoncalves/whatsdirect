@@ -19,7 +19,7 @@ class tihh_router{
     $this->levels = explode('/', $this->gets);
     $this->page = array_shift($this->levels);
 
-    $url_base = $uri->Host() . '/' . $uri->scriptName();
+    $url_base = $uri->Host() . $uri->scriptName();
 
     //verifica versão do site
     if(strpos($config->get('site_localhost_url'), $url_base) > 0) {
@@ -34,6 +34,8 @@ class tihh_router{
       $this->version = 'production';
       $config->set('site_url', $config->get('site_production_url'));
     }
+
+    //die('site_url: ' . $config->get('site_url'));
 
   }
 

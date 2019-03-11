@@ -21,14 +21,18 @@
 <!-- BOWER - rhinoJS -->
 <script src="<?= $config->get('site_url'); ?>bower_components/rhinoJS/dist/rhinoJS.js"></script>
 
+
+<script src="<?= $config->get('site_url'); ?>bower_components/jquery-mask-plugin/dist/jquery.mask.min.js"></script>
+
+
 <!-- Script do FrontEnd -->
 <script src="<?= $config->get('site_url'); ?>assets/js/base.js"></script>
 
 <!-- Estilos do FrontEnd -->
 <link rel="stylesheet" href="<?= $config->get('site_url'); ?>assets/css/base.css" />
 
-<!-- FacIcon -->
-<link rel="icon" href="assets/images/favicon.png" type="image/x-icon"/>
-<link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon"/>
+<!-- FavIcon -->
+<link rel="icon" href="<?= $config->get('site_url'); ?>assets/images/favicon.png" type="image/x-icon"/>
+<link rel="shortcut icon" href="<?= $config->get('site_url'); ?>assets/images/favicon.png" type="image/x-icon"/>
 
 </head>
