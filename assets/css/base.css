@@ -2019,15 +2019,15 @@ body {
   background-color: #E1E1E1;
 }
 .bg-rosa {
-  background-color: #7ad06d;
+  background-color: #ff3e69;
 }
 .btn {
-  background-color: #7ad06d;
+  background-color: #ff3e69;
   color: #FFF;
 }
 .btn:hover {
   color: #FFF;
-  background-color: #6fcc61;
+  background-color: #ff2f5d;
 }
 /* Cor dos Textos */
 .color-branco {
@@ -2045,7 +2045,7 @@ body {
 /* Links (inÃ­cio) */
 a:not(.no-animate),
 a:not(.no-animate):visited {
-  color: #7ad06d !important;
+  color: #ff3e69 !important;
   z-index: 1;
   text-decoration: none!important;
   position: relative;
@@ -2058,12 +2058,12 @@ a:not(.no-animate):visited:after {
   bottom: -5px;
   left: 0;
   width: 0%;
-  background: #7ad06d;
+  background: #ff3e69;
   transition: 0.2s;
 }
 a:not(.no-animate):hover:after,
 a:not(.no-animate):visited:hover:after {
-  color: #7ad06d;
+  color: #ff3e69;
   width: 100%;
   text-decoration: none;
 }

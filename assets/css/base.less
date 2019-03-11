@@ -5,7 +5,7 @@
 
 
 @cor-cinza:   #E1E1E1;
-@cor-verde:    #7ad06d;
+@cor-rosa:    #ff3e69;
 @cor-branco:  #FFF;
 @cor-preto:   #000;
 
@@ -23,7 +23,7 @@ body{
 }
 
 .bg-rosa{
-  background-color: @cor-verde;
+  background-color: @cor-rosa;
 }
 
 
@@ -33,7 +33,7 @@ body{
 
   &:hover{
     .color-branco;
-    background-color: darken(@cor-verde, 3%);
+    background-color: darken(@cor-rosa, 3%);
   }
 }
 
@@ -54,7 +54,7 @@ body{
 /* Links (inÃ­cio) */
 a:not(.no-animate),
 a:not(.no-animate):visited {
-  color: @cor-verde!important;
+  color: @cor-rosa!important;
   z-index: 1;
   text-decoration: none!important;
   position: relative;
@@ -67,12 +67,12 @@ a:not(.no-animate):visited:after {
   bottom: -5px;
   left: 0;
   width: 0%;
-  background: @cor-verde;
+  background: @cor-rosa;
   transition: 0.2s;
 }
 a:not(.no-animate):hover:after,
 a:not(.no-animate):visited:hover:after {
-  color: @cor-verde;
+  color: @cor-rosa;
   width: 100%;
   text-decoration: none;
 }
