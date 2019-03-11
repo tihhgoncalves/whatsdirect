@@ -1,7 +1,7 @@
 <?
 $config->set('site_localhost_url',   'http://localhost.gits/directwhats/');
-$config->set('site_production_url',  'http://publico.taticadesucesso.com.br/site');
-$config->set('site_beta_url',        'http://www.site.com.br');
+$config->set('site_production_url',  'http://app.taticadesucesso.com.br/whatsdirect/');
+$config->set('site_beta_url',        '###');
 
 $config->set('site_path',            __DIR__ . '/');
 $config->set('page_title',           'WhatsDirect // Envie mensagem no WhatsApp sem registrar o contato na sua agenda.');
