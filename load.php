@@ -9,6 +9,9 @@ set_include_path(__DIR__);
 require('bower_components/tihh.site.config.php/load.php');
 $config = new tihh_config();
 
+//carrega config.php
+require('config.php');
+
 /* Objeto de URI */
 require('bower_components/tihh.site.uri.php/load.php');
 $uri = new tihh_uri();
@@ -22,7 +25,4 @@ require('bower_components/tihh.php.obj.db.mysql.sql.post/load.php');
 
 /* FUNÇÕES */
 require('bower_components/tihh.php.fnc.getTags/load.php');
-
-//carrega config.php
-require('config.php');
 ?>
